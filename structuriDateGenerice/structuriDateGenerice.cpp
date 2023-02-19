@@ -1,10 +1,13 @@
-#include "lista.h";
-//#include <iostream>
-//using namespace std;
+//#include "lista.h";
+#include "stiva.h";
 
 int main()
 {
 
+    //LISTA
+
+
+    /*
     Lista<char> lista;
 
     //cout << lista.isEmpty();
@@ -40,5 +43,43 @@ int main()
     //lista.set('x', 2);
 
     //lista.afisare();
-       
+    */   
+
+
+
+    //STIVA
+
+
+    Stiva<char> s;
+
+    //cout << s.isEmpty();
+
+    s.push('A');
+
+    s.push('w');
+
+    s.push('C');
+
+    s.push('q');
+
+    s.push('o');
+
+    s.afisare();
+
+    cout << endl << endl;
+
+    cout << s.peak();
+
+    s.pop();
+
+    s.pop();
+
+    s.afisare();
+
+    //cout << s.isEmpty();
+
+    //cout << s.peak();
+
+
+
 }
