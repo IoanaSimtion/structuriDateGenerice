@@ -34,7 +34,7 @@ struct Lista {
 	}
 
 
-	void addSfarsit(U data) {
+	void add(U data) {
 
 		if (head == NULL) {
 
@@ -92,7 +92,7 @@ struct Lista {
 
 		if (aux == NULL) {
 
-			addSfarsit(data);
+			add(data);
 
 			return;
 

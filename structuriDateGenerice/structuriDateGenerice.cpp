@@ -17,7 +17,7 @@ int main()
 
     lista.addStart('i');
 
-    lista.addSfarsit('X');
+    lista.add('X');
     
     lista.afisare();
 
@@ -37,8 +37,8 @@ int main()
 
     //lista.removeObject('b');
 
-    lista.set('x', 2);
+    //lista.set('x', 2);
 
-    lista.afisare();
+    //lista.afisare();
        
 }
