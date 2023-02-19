@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="lista.h" />
     <ClInclude Include="node.h" />
+    <ClInclude Include="stiva.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
