@@ -1,5 +1,6 @@
 //#include "lista.h";
-#include "stiva.h";
+//#include "stiva.h";
+#include "coada.h";
 
 int main()
 {
@@ -49,7 +50,7 @@ int main()
 
     //STIVA
 
-
+    /*
     Stiva<char> s;
 
     //cout << s.isEmpty();
@@ -68,7 +69,7 @@ int main()
 
     cout << endl << endl;
 
-    cout << s.peak();
+    //cout << s.peak();
 
     s.pop();
 
@@ -79,7 +80,37 @@ int main()
     //cout << s.isEmpty();
 
     //cout << s.peak();
+    */
 
 
+
+    //COADA
+
+    
+    Coada<char> c;
+
+    //cout << c.isEmpty();
+
+    c.push('a');
+
+    c.push('b');
+
+    c.push('c');
+
+    c.push('d');
+
+    c.afisare();
+
+    cout << endl << endl;
+
+    //cout << c.isEmpty();
+
+    c.pop();
+
+    c.afisare();
+
+    cout << endl;
+
+    cout<<c.peek();
 
 }

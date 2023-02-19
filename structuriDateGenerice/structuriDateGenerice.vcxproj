@@ -130,6 +130,7 @@
     <ClCompile Include="structuriDateGenerice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coada.h" />
     <ClInclude Include="lista.h" />
     <ClInclude Include="node.h" />
     <ClInclude Include="stiva.h" />
