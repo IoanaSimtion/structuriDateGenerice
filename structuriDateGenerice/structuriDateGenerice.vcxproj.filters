@@ -29,5 +29,8 @@
     <ClInclude Include="stiva.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="coada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
