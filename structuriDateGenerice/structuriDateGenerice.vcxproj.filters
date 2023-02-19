@@ -32,5 +32,8 @@
     <ClInclude Include="coada.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="exercitii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

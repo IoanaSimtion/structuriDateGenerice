@@ -1,6 +1,7 @@
 //#include "lista.h";
 //#include "stiva.h";
-#include "coada.h";
+//#include "coada.h";
+#include "exercitii.h";
 
 int main()
 {
@@ -86,7 +87,7 @@ int main()
 
     //COADA
 
-    
+    /*
     Coada<char> c;
 
     //cout << c.isEmpty();
@@ -111,6 +112,15 @@ int main()
 
     cout << endl;
 
-    cout<<c.peek();
+    cout << c.peek();*/
+
+    
+    
+    //EXERCITII
+
+
+    sol1();
+
+    
 
 }
