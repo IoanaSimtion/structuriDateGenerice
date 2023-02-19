@@ -7,22 +7,38 @@ int main()
 
     Lista<char> lista;
 
+    //cout << lista.isEmpty();
+
+    lista.addStart('a');
+
+    lista.addStart('b');
+
     lista.addStart('s');
 
     lista.addStart('i');
+
+    lista.addSfarsit('X');
     
-    Node<char>* aux = lista.head;
+    lista.afisare();
 
-    while (aux != NULL) {
+    cout << endl << endl;
 
-        cout << aux->data << "";
+    //cout << lista.get(1);
 
-        aux = aux->next;
+    //cout << lista.size();
 
-    }
-   
+    //cout << lista.indexOf('x');
 
+    //cout << lista.contains('b');
 
+    //cout << lista.isEmpty();
 
-    
+    //lista.removeIndex(0);
+
+    //lista.removeObject('b');
+
+    lista.set('x', 2);
+
+    lista.afisare();
+       
 }
