@@ -137,6 +137,9 @@
     <ClInclude Include="stiva.h" />
     <ClInclude Include="tema.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="matrice.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

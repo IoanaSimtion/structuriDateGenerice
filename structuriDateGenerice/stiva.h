@@ -77,4 +77,48 @@ struct Stiva {
 
 	}
 
+
+	Node<S>* getNode(int poz) {
+
+		int ct = 0;
+
+		Node<S>* aux = top;
+
+		while (aux != NULL && ct != poz) {
+
+			aux = aux->next;
+
+			ct++;
+
+		}
+
+		return aux;
+	}
+
+
+	void set(S elem, int index) {
+
+		Node<S>* aux = top;
+
+		int ct = 0;
+
+		while (aux != NULL && ct != index) {
+
+			aux = aux->next;
+
+			ct++;
+
+		}
+
+		aux->data = elem;
+
+	}
+
+
+	Node<S>* iterator() {
+
+		return this->top;
+
+	}
+
 };

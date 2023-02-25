@@ -1,7 +1,8 @@
 //#include "lista.h";
 //#include "stiva.h";
 //#include "coada.h";
-#include "exercitii.h";
+//#include "exercitii.h";
+#include "tema.h";
 
 int main()
 {
@@ -23,7 +24,7 @@ int main()
     lista.addStart('i');
 
     lista.add('X');
-    
+
     lista.afisare();
 
     cout << endl << endl;
@@ -45,7 +46,7 @@ int main()
     //lista.set('x', 2);
 
     //lista.afisare();
-    */   
+    */
 
 
 
@@ -114,13 +115,45 @@ int main()
 
     cout << c.peek();*/
 
-    
-    
+
+
     //EXERCITII
 
 
-    sol1();
+    //sol1();
 
-    
+
+
+
+
+
+
+    //TEMA
+
+    //sol1();
+
+    //sol2();
+
+    //sol3();
+
+    //sol4();
+
+    //sol5();
+
+    //sol6();
+
+    //sol7();
+
+    //sol8();
+
+    //sol9();
+
+    //sol10();
+
+    //sol11();
+
+    //sol12();
+
+    sol13();
 
 }
