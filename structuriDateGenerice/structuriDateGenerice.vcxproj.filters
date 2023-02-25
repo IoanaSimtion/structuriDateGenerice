@@ -35,5 +35,13 @@
     <ClInclude Include="exercitii.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="matrice.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
