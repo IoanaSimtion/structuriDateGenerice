@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coada.h" />
+    <ClInclude Include="corectareaTemei.h" />
     <ClInclude Include="exercitii.h" />
     <ClInclude Include="lista.h" />
     <ClInclude Include="node.h" />

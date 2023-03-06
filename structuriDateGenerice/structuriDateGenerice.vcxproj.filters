@@ -38,6 +38,9 @@
     <ClInclude Include="tema.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="corectareaTemei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="matrice.txt">

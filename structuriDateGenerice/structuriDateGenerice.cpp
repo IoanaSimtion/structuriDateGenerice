@@ -2,7 +2,8 @@
 //#include "stiva.h";
 //#include "coada.h";
 //#include "exercitii.h";
-#include "tema.h";
+//#include "tema.h";
+#include "corectareaTemei.h";
 
 int main()
 {
@@ -154,6 +155,14 @@ int main()
 
     //sol12();
 
-    sol13();
+    //sol13();
+
+
+
+
+    //CORECTAREA TEMEI
+
+
+    sol864();
 
 }
