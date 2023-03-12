@@ -1,0 +1,7 @@
+ioana NULL
+marius ioana
+ela ioana
+iris marius
+andreea marius
+radu ela
+cristi ela

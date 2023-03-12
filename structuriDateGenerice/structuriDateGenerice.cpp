@@ -3,7 +3,8 @@
 //#include "coada.h";
 //#include "exercitii.h";
 //#include "tema.h";
-#include "corectareaTemei.h";
+//#include "corectareaTemei.h";
+#include "arbori.h";
 
 int main()
 {
@@ -89,32 +90,38 @@ int main()
 
     //COADA
 
-    /*
-    Coada<char> c;
+    
+    //Coada<char> c;
 
-    //cout << c.isEmpty();
+    ////cout << c.isEmpty();
 
-    c.push('a');
+    //cout << "dupa push: " << endl;
 
-    c.push('b');
+    //c.push('a');
 
-    c.push('c');
+    //c.push('b');
 
-    c.push('d');
+    //c.push('c');
 
-    c.afisare();
+    //c.push('d');
 
-    cout << endl << endl;
+    //c.afisare();
 
-    //cout << c.isEmpty();
+    //cout << endl << endl;
 
-    c.pop();
+    ////cout << c.isEmpty();
 
-    c.afisare();
+    //cout << "dupa pop: " << endl;
 
-    cout << endl;
+    //c.pop();
 
-    cout << c.peek();*/
+    //c.pop();
+
+    //c.afisare();
+
+    //cout << endl;
+
+    //cout << c.peak();
 
 
 
@@ -163,6 +170,46 @@ int main()
     //CORECTAREA TEMEI
 
 
-    sol864();
+    //sol864();
 
+
+
+
+
+
+
+    //ARBORI
+
+    //TreeIerarhie x("Ioana");
+
+   /* x.addSubordonat("Ioana", "Marius");
+
+    x.addSubordonat("Ioana", "Ela");
+
+    x.addSubordonat("Marius", "Iris");
+
+    x.addSubordonat("Marius", "Andreea");
+
+    x.addSubordonat("Ela", "Radu");
+
+    x.addSubordonat("Ela", "Cristi");*/
+
+    /*cout << x.find("Radu", x.root)->data << endl;
+
+    cout << x.find("Ioana", x.root)->data << endl;
+
+    cout << x.find("Miruna", x.root);*/
+
+    //x.afisare();
+
+
+    TreeIerarhie x("");
+
+    x.treeFisier();
+
+    x.afisare();
+
+
+
+    
 }
