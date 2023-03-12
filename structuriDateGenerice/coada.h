@@ -78,11 +78,11 @@ struct Coada {
 	}
 
 
-	C peak() {
+	Node<C>* peak() {
 
-		Node<C>* aux = top;
+		
 
-		return aux->data;
+		return top;
 
 	}
 

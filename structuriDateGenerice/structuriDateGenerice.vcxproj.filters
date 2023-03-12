@@ -41,9 +41,18 @@
     <ClInclude Include="corectareaTemei.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="arbori.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="treeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="matrice.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="arbore.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
