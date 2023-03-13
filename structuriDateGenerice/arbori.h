@@ -74,11 +74,11 @@ struct TreeIerarhie {
 		return false;
 
 	}
+
 	void afisare() {
 
 
 		TreeNodeIerarhie* aux = root;
-		
 
 		Coada<TreeNodeIerarhie*>coada;
 
@@ -100,7 +100,6 @@ struct TreeIerarhie {
 				coada.pop();
 		}
 	}
-
 
 	void treeFisier() {
 
@@ -131,11 +130,219 @@ struct TreeIerarhie {
 
 	}
 	
-
 };
 
 
 
+struct BinaryTree {
 
+	TreeNode* root = NULL;
+
+
+	BinaryTree(int number) {
+
+		root = new TreeNode();
+
+		root->left = NULL;
+
+		root->right = NULL;
+
+		root->data = number;
+
+	}
+
+
+	void add(TreeNode*current,int numar) {
+
+		if (current == NULL) {
+
+			TreeNode* nou = new TreeNode();
+
+			nou->left = NULL;
+
+			nou->right = NULL;
+
+			nou->data = numar;
+
+		}
+		else if (current->data>numar) {
+
+
+			if (current->left != NULL) {
+
+				add(current->left, numar);
+			}
+			else {
+
+				current->left = new TreeNode();
+				current->left->data = numar;
+				current->left->left = NULL;
+				current->left->right = NULL;
+			}
+
+		}
+		else {
+
+			if (current->right != NULL) {
+
+				add(current->right, numar);
+			}
+			else {
+
+				current->right = new TreeNode();
+				current->right->data = numar;
+				current->right->left = NULL;
+				current->right->right = NULL;
+
+			}
+
+		}
+		
+
+	}
+
+
+	void afisare() {
+
+		TreeNode* aux = root;
+
+		Coada<TreeNode*> coada;
+
+		coada.push(aux);
+
+		while (coada.isEmpty() == false) {
+
+			aux = coada.peak()->data;
+
+			if (aux->left != NULL) {
+
+				coada.push(aux->left);
+
+			}
+
+			if (aux->right != NULL) {
+
+				coada.push(aux->right);
+
+			}
+			
+			cout << aux->data << ' ';
+
+			coada.pop();
+
+		}
+
+	}
+	
+
+	TreeNode* find(int numar, TreeNode* current) {
+
+		if (current == NULL) {
+
+			return NULL;
+
+		}
+
+		if (current->data == numar) {
+
+			return current;
+
+		}
+
+		TreeNode* aux = find(numar, current->left);
+
+		if (aux != NULL) {
+
+			return aux;
+
+		}
+
+		return find(numar, current->right);
+	}
+
+
+	int elementMaxim() {
+
+		int maxim = INT_MIN;
+
+		TreeNode* aux = root;
+
+		Coada<TreeNode*> coada;
+
+		coada.push(aux);
+
+		while (coada.isEmpty() == false) {
+
+			aux = coada.peak()->data;
+
+			if (aux->left != NULL) {
+
+				if (aux->left->data > maxim) {
+					maxim = aux->left->data;
+				}
+
+				coada.push(aux->left);
+
+			}
+
+			if (aux->right != NULL) {
+
+				if (aux->right->data > maxim) {
+					maxim = aux->right->data;
+				}
+
+				coada.push(aux->right);
+			}
+
+			coada.pop();
+		}
+
+		return maxim;
+	}
+
+
+	int elementMinim() {
+
+		int minim = INT_MAX;
+
+		TreeNode* aux = root;
+
+		Coada<TreeNode*> coada;
+
+		coada.push(aux);
+
+		while (coada.isEmpty() == false) {
+
+			aux = coada.peak()->data;
+
+			if (aux->left != NULL) {
+
+				if (aux->left->data < minim) {
+					minim = aux->left->data;
+				}
+
+				coada.push(aux->left);
+
+			}
+
+			if (aux->right != NULL) {
+
+				if (aux->right->data < minim) {
+					minim = aux->right->data;
+				}
+
+				coada.push(aux->right);
+
+			}
+
+			coada.pop();
+		}
+
+		return minim;
+
+	}
+
+
+};
 
 

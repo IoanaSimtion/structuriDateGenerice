@@ -12,3 +12,14 @@ struct TreeNodeIerarhie{
 	TreeNodeIerarhie* left;
 	TreeNodeIerarhie* right;
 };
+
+
+struct TreeNode {
+
+	int data;
+
+	TreeNode* left;
+
+	TreeNode* right;
+
+};
