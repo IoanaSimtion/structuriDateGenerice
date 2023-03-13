@@ -203,11 +203,41 @@ int main()
     //x.afisare();
 
 
-    TreeIerarhie x("");
+    /*TreeIerarhie x("");
 
     x.treeFisier();
 
+    x.afisare();*/
+
+
+    BinaryTree x(7);
+
+    x.add(x.root, 9);
+
+    x.add(x.root, -1);
+
+    x.add(x.root, 5);
+
+    x.add(x.root, 12);
+
+    x.add(x.root, 3);
+
+    x.add(x.root, -7);
+
     x.afisare();
+
+    /*cout << endl << endl;
+
+    cout << x.find(12, x.root) << endl;
+
+    cout << x.find(213, x.root) << endl;
+
+    cout << x.find(111, x.root) << endl;*/
+
+    cout << "\nElementul maxim este: " << x.elementMaxim();
+
+    cout << "\nElementul minim este: " << x.elementMinim();
+
 
 
 
