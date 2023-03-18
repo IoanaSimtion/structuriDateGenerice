@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arbori.h" />
+    <ClInclude Include="arboriPbinfo.h" />
     <ClInclude Include="coada.h" />
     <ClInclude Include="corectareaTemei.h" />
     <ClInclude Include="exercitii.h" />
@@ -143,6 +144,10 @@
   <ItemGroup>
     <Text Include="arbore.txt" />
     <Text Include="matrice.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bifrunze.in" />
+    <None Include="preordine.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

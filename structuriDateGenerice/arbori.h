@@ -343,6 +343,42 @@ struct BinaryTree {
 	}
 
 
+	void preordine(TreeNode* current) {
+		
+		if (current == NULL) {
+			return;
+		}
+		cout << current->data << ' ';
+		preordine(current->left);
+		preordine(current->right);
+
+	}
+	 
+
+	void ordine(TreeNode* current) {
+
+		if (current == NULL) {
+			return;
+		}
+		ordine(current->left);		
+		cout << current->data << ' ';
+		ordine(current->right);
+
+	}
+
+
+	void postordine(TreeNode* current) {
+
+		if (current == NULL) {
+			return;
+		}
+		postordine(current->left);
+		postordine(current->right);
+		cout << current->data << ' ';
+
+	}
+
+
 };
 
 
