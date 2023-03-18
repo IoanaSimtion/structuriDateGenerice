@@ -47,6 +47,9 @@
     <ClInclude Include="treeNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="arboriPbinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="matrice.txt">
@@ -55,5 +58,13 @@
     <Text Include="arbore.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bifrunze.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="preordine.in">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

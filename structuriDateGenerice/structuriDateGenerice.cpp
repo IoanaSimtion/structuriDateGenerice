@@ -4,7 +4,9 @@
 //#include "exercitii.h";
 //#include "tema.h";
 //#include "corectareaTemei.h";
-#include "arbori.h";
+//#include "arbori.h";
+#include "arboriPbinfo.h";
+
 
 int main()
 {
@@ -210,7 +212,7 @@ int main()
     x.afisare();*/
 
 
-    BinaryTree x(7);
+   /* BinaryTree x(7);
 
     x.add(x.root, 9);
 
@@ -222,23 +224,35 @@ int main()
 
     x.add(x.root, 3);
 
-    x.add(x.root, -7);
+    x.add(x.root, -7);*/
 
-    x.afisare();
+    //x.preordine(x.root);
 
-    /*cout << endl << endl;
+    //x.ordine(x.root);
 
-    cout << x.find(12, x.root) << endl;
+    //x.postordine(x.root);
 
-    cout << x.find(213, x.root) << endl;
+    //x.afisare();
 
-    cout << x.find(111, x.root) << endl;*/
+    ///*cout << endl << endl;
 
-    cout << "\nElementul maxim este: " << x.elementMaxim();
+    //cout << x.find(12, x.root) << endl;
 
-    cout << "\nElementul minim este: " << x.elementMinim();
+    //cout << x.find(213, x.root) << endl;
+
+    //cout << x.find(111, x.root) << endl;*/
+
+    //cout << "\nElementul maxim este: " << x.elementMaxim();
+
+    //cout << "\nElementul minim este: " << x.elementMinim();
 
 
+    
+    //EXERCITII ARBORI
+
+    //sol675();
+
+    sol670();
 
 
     
